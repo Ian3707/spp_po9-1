@@ -1,11 +1,14 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
-        int size = 5;
+        Scanner scanner = new Scanner(System.in);
+        int size = Integer.parseInt(args[0]);
         double a = 0.0;
         double b = 10.0;
+
 
         double[][] randomMatrix = random(a, b, size);
 
