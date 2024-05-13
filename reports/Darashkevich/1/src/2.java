@@ -5,9 +5,10 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
         int size = Integer.parseInt(args[0]);
-        double a = 0.0;
-        double b = 10.0;
+        double a = Integer.parseInt(args[1]);
+        double b = Integer.parseInt(args[2]);
 
 
         double[][] randomMatrix = random(a, b, size);
